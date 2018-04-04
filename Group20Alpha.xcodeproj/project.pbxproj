@@ -10,13 +10,20 @@
 		A3A9B5AB51C4516133E20AAC /* Pods_Group20Alpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8153EC90708D004D781800B3 /* Pods_Group20Alpha.framework */; };
 		BDD1BE162073E281007F0A0C /* appUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE152073E281007F0A0C /* appUser.swift */; };
 		BDD1BE18207441DB007F0A0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDD1BE17207441DA007F0A0C /* GoogleService-Info.plist */; };
+		BDD1BE1A207445AC007F0A0C /* SafeAreaLayout_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE19207445AC007F0A0C /* SafeAreaLayout_Extension.swift */; };
+		BDD1BE1C207445DD007F0A0C /* UITextField_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE1B207445DD007F0A0C /* UITextField_Extension.swift */; };
+		BDD1BE1E207445F4007F0A0C /* UIStackView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE1D207445F4007F0A0C /* UIStackView_Extension.swift */; };
+		BDD1BE2020744616007F0A0C /* UIButton_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE1F20744616007F0A0C /* UIButton_Extension.swift */; };
+		BDD1BE2220744639007F0A0C /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE2120744639007F0A0C /* UIColor_Extension.swift */; };
+		BDD1BE2420744681007F0A0C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE2320744681007F0A0C /* LoginController.swift */; };
+		BDD1BE26207446A3007F0A0C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE25207446A3007F0A0C /* LoginView.swift */; };
+		BDD1BE28207446C1007F0A0C /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE27207446C1007F0A0C /* SignUpController.swift */; };
+		BDD1BE2A207446E9007F0A0C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE29207446E9007F0A0C /* MainController.swift */; };
+		BDD1BE2C20744708007F0A0C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE2B20744708007F0A0C /* SignUpView.swift */; };
 		E491C57A2061D56F0008318F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491C5792061D56F0008318F /* AppDelegate.swift */; };
-		E491C57F2061D56F0008318F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E491C57D2061D56F0008318F /* Main.storyboard */; };
 		E491C5822061D56F0008318F /* Group20Alpha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E491C5802061D56F0008318F /* Group20Alpha.xcdatamodeld */; };
 		E491C5842061D56F0008318F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E491C5832061D56F0008318F /* Assets.xcassets */; };
 		E491C5872061D56F0008318F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E491C5852061D56F0008318F /* LaunchScreen.storyboard */; };
-		E491C58F2061D5CD0008318F /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491C58E2061D5CD0008318F /* loginViewController.swift */; };
-		E491C5912061D7180008318F /* createAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491C5902061D7180008318F /* createAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,16 +31,23 @@
 		8153EC90708D004D781800B3 /* Pods_Group20Alpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Group20Alpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD1BE152073E281007F0A0C /* appUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appUser.swift; sourceTree = "<group>"; };
 		BDD1BE17207441DA007F0A0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDD1BE19207445AC007F0A0C /* SafeAreaLayout_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaLayout_Extension.swift; sourceTree = "<group>"; };
+		BDD1BE1B207445DD007F0A0C /* UITextField_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField_Extension.swift; sourceTree = "<group>"; };
+		BDD1BE1D207445F4007F0A0C /* UIStackView_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView_Extension.swift; sourceTree = "<group>"; };
+		BDD1BE1F20744616007F0A0C /* UIButton_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton_Extension.swift; sourceTree = "<group>"; };
+		BDD1BE2120744639007F0A0C /* UIColor_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
+		BDD1BE2320744681007F0A0C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		BDD1BE25207446A3007F0A0C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BDD1BE27207446C1007F0A0C /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		BDD1BE29207446E9007F0A0C /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		BDD1BE2B20744708007F0A0C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		D5E090776B1EABA1D97CFF5C /* Pods-Group20Alpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group20Alpha.release.xcconfig"; path = "Pods/Target Support Files/Pods-Group20Alpha/Pods-Group20Alpha.release.xcconfig"; sourceTree = "<group>"; };
 		E491C5762061D56F0008318F /* Group20Alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Group20Alpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E491C5792061D56F0008318F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E491C57E2061D56F0008318F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E491C5812061D56F0008318F /* Group20Alpha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Group20Alpha.xcdatamodel; sourceTree = "<group>"; };
 		E491C5832061D56F0008318F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E491C5862061D56F0008318F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E491C5882061D56F0008318F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E491C58E2061D5CD0008318F /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
-		E491C5902061D7180008318F /* createAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +90,11 @@
 		E43BD34D2073CA500023BF34 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				E43BD3502073CB280023BF34 /* Authorization */,
+				BDD1BE19207445AC007F0A0C /* SafeAreaLayout_Extension.swift */,
+				BDD1BE1B207445DD007F0A0C /* UITextField_Extension.swift */,
+				BDD1BE1D207445F4007F0A0C /* UIStackView_Extension.swift */,
+				BDD1BE1F20744616007F0A0C /* UIButton_Extension.swift */,
+				BDD1BE2120744639007F0A0C /* UIColor_Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -96,8 +114,11 @@
 		E43BD3502073CB280023BF34 /* Authorization */ = {
 			isa = PBXGroup;
 			children = (
-				E491C58E2061D5CD0008318F /* loginViewController.swift */,
-				E491C5902061D7180008318F /* createAccountViewController.swift */,
+				BDD1BE2320744681007F0A0C /* LoginController.swift */,
+				BDD1BE25207446A3007F0A0C /* LoginView.swift */,
+				BDD1BE27207446C1007F0A0C /* SignUpController.swift */,
+				BDD1BE29207446E9007F0A0C /* MainController.swift */,
+				BDD1BE2B20744708007F0A0C /* SignUpView.swift */,
 			);
 			path = Authorization;
 			sourceTree = "<group>";
@@ -133,8 +154,8 @@
 			children = (
 				E43BD34E2073CAB50023BF34 /* Supporting Files */,
 				E43BD34D2073CA500023BF34 /* Extensions */,
+				E43BD3502073CB280023BF34 /* Authorization */,
 				BDD1BE142073E257007F0A0C /* Models */,
-				E491C57D2061D56F0008318F /* Main.storyboard */,
 				E43BD3512073CB630023BF34 /* Core Data */,
 			);
 			path = Group20Alpha;
@@ -205,7 +226,6 @@
 				E491C5872061D56F0008318F /* LaunchScreen.storyboard in Resources */,
 				BDD1BE18207441DB007F0A0C /* GoogleService-Info.plist in Resources */,
 				E491C5842061D56F0008318F /* Assets.xcassets in Resources */,
-				E491C57F2061D56F0008318F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,25 +303,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E491C5912061D7180008318F /* createAccountViewController.swift in Sources */,
+				BDD1BE28207446C1007F0A0C /* SignUpController.swift in Sources */,
+				BDD1BE2C20744708007F0A0C /* SignUpView.swift in Sources */,
+				BDD1BE2420744681007F0A0C /* LoginController.swift in Sources */,
+				BDD1BE1C207445DD007F0A0C /* UITextField_Extension.swift in Sources */,
+				BDD1BE2020744616007F0A0C /* UIButton_Extension.swift in Sources */,
+				BDD1BE1E207445F4007F0A0C /* UIStackView_Extension.swift in Sources */,
+				BDD1BE1A207445AC007F0A0C /* SafeAreaLayout_Extension.swift in Sources */,
+				BDD1BE26207446A3007F0A0C /* LoginView.swift in Sources */,
+				BDD1BE2A207446E9007F0A0C /* MainController.swift in Sources */,
 				E491C5822061D56F0008318F /* Group20Alpha.xcdatamodeld in Sources */,
 				BDD1BE162073E281007F0A0C /* appUser.swift in Sources */,
 				E491C57A2061D56F0008318F /* AppDelegate.swift in Sources */,
-				E491C58F2061D5CD0008318F /* loginViewController.swift in Sources */,
+				BDD1BE2220744639007F0A0C /* UIColor_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E491C57D2061D56F0008318F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E491C57E2061D56F0008318F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E491C5852061D56F0008318F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

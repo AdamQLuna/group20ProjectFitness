@@ -15,9 +15,8 @@ target 'Group20Alpha' do
   # pod 'Firebase/Messaging'
   # pod 'Firebase/Performance'
   # pod 'Firebase/RemoteConfig'
-  pod 'Firebase/Storage'
+  # pod 'Firebase/Storage'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
-
 
 end

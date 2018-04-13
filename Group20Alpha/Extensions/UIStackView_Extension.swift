@@ -17,4 +17,12 @@ extension UIView {
         stackView.spacing = 10
         return stackView
     }
+    
+    func createHorizontalStackView(views: [UIView]) -> UIStackView {
+        let stackView = UIStackView(arrangedSubviews: views)
+        stackView.axis = .horizontal
+        stackView.distribution = .fillProportionally
+        stackView.spacing = 10
+        return stackView
+    }
 }

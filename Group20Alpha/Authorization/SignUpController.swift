@@ -25,8 +25,10 @@ class SignUpController: UIViewController {
     func setupView() {
         let mainView = SignUpView(frame: self.view.frame)
         self.signupView = mainView
+        //Connects the variables in the view to the actual code to handle buttons here
         signupView.submitAction = submitButtonPressed
         signupView.cancelAction = cancelButtonPressed
+        
         view.addSubview(signupView)
         signupView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         signupView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true

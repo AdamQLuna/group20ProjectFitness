@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A3A9B5AB51C4516133E20AAC /* Pods_Group20Alpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8153EC90708D004D781800B3 /* Pods_Group20Alpha.framework */; };
 		BDD1BE162073E281007F0A0C /* appUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE152073E281007F0A0C /* appUser.swift */; };
-		BDD1BE18207441DB007F0A0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDD1BE17207441DA007F0A0C /* GoogleService-Info.plist */; };
 		BDD1BE1A207445AC007F0A0C /* SafeAreaLayout_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE19207445AC007F0A0C /* SafeAreaLayout_Extension.swift */; };
 		BDD1BE1C207445DD007F0A0C /* UITextField_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE1B207445DD007F0A0C /* UITextField_Extension.swift */; };
 		BDD1BE1E207445F4007F0A0C /* UIStackView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1BE1D207445F4007F0A0C /* UIStackView_Extension.swift */; };
@@ -24,13 +23,15 @@
 		E491C5822061D56F0008318F /* Group20Alpha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E491C5802061D56F0008318F /* Group20Alpha.xcdatamodeld */; };
 		E491C5842061D56F0008318F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E491C5832061D56F0008318F /* Assets.xcassets */; };
 		E491C5872061D56F0008318F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E491C5852061D56F0008318F /* LaunchScreen.storyboard */; };
+		FACB0CCB2074514E000DAB3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FACB0CCA2074514E000DAB3F /* GoogleService-Info.plist */; };
+		FACB0CEC20753698000DAB3F /* AddWorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB0CEB20753698000DAB3F /* AddWorkoutController.swift */; };
+		FACB0CEE207536B1000DAB3F /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB0CED207536B1000DAB3F /* AddWorkoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7914FC37E31BD24AF0C593FC /* Pods-Group20Alpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group20Alpha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Group20Alpha/Pods-Group20Alpha.debug.xcconfig"; sourceTree = "<group>"; };
 		8153EC90708D004D781800B3 /* Pods_Group20Alpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Group20Alpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD1BE152073E281007F0A0C /* appUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appUser.swift; sourceTree = "<group>"; };
-		BDD1BE17207441DA007F0A0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BDD1BE19207445AC007F0A0C /* SafeAreaLayout_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaLayout_Extension.swift; sourceTree = "<group>"; };
 		BDD1BE1B207445DD007F0A0C /* UITextField_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField_Extension.swift; sourceTree = "<group>"; };
 		BDD1BE1D207445F4007F0A0C /* UIStackView_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView_Extension.swift; sourceTree = "<group>"; };
@@ -48,6 +49,9 @@
 		E491C5832061D56F0008318F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E491C5862061D56F0008318F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E491C5882061D56F0008318F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB0CCA2074514E000DAB3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FACB0CEB20753698000DAB3F /* AddWorkoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutController.swift; sourceTree = "<group>"; };
+		FACB0CED207536B1000DAB3F /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +106,8 @@
 		E43BD34E2073CAB50023BF34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FACB0CCA2074514E000DAB3F /* GoogleService-Info.plist */,
 				E491C5792061D56F0008318F /* AppDelegate.swift */,
-				BDD1BE17207441DA007F0A0C /* GoogleService-Info.plist */,
 				E491C5832061D56F0008318F /* Assets.xcassets */,
 				E491C5852061D56F0008318F /* LaunchScreen.storyboard */,
 				E491C5882061D56F0008318F /* Info.plist */,
@@ -152,6 +156,7 @@
 		E491C5782061D56F0008318F /* Group20Alpha */ = {
 			isa = PBXGroup;
 			children = (
+				FACB0CEA20753634000DAB3F /* Add Workout */,
 				E43BD34E2073CAB50023BF34 /* Supporting Files */,
 				E43BD34D2073CA500023BF34 /* Extensions */,
 				E43BD3502073CB280023BF34 /* Authorization */,
@@ -159,6 +164,15 @@
 				E43BD3512073CB630023BF34 /* Core Data */,
 			);
 			path = Group20Alpha;
+			sourceTree = "<group>";
+		};
+		FACB0CEA20753634000DAB3F /* Add Workout */ = {
+			isa = PBXGroup;
+			children = (
+				FACB0CEB20753698000DAB3F /* AddWorkoutController.swift */,
+				FACB0CED207536B1000DAB3F /* AddWorkoutView.swift */,
+			);
+			path = "Add Workout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E491C5872061D56F0008318F /* LaunchScreen.storyboard in Resources */,
-				BDD1BE18207441DB007F0A0C /* GoogleService-Info.plist in Resources */,
 				E491C5842061D56F0008318F /* Assets.xcassets in Resources */,
+				FACB0CCB2074514E000DAB3F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +318,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD1BE28207446C1007F0A0C /* SignUpController.swift in Sources */,
+				FACB0CEE207536B1000DAB3F /* AddWorkoutView.swift in Sources */,
 				BDD1BE2C20744708007F0A0C /* SignUpView.swift in Sources */,
 				BDD1BE2420744681007F0A0C /* LoginController.swift in Sources */,
 				BDD1BE1C207445DD007F0A0C /* UITextField_Extension.swift in Sources */,
 				BDD1BE2020744616007F0A0C /* UIButton_Extension.swift in Sources */,
+				FACB0CEC20753698000DAB3F /* AddWorkoutController.swift in Sources */,
 				BDD1BE1E207445F4007F0A0C /* UIStackView_Extension.swift in Sources */,
 				BDD1BE1A207445AC007F0A0C /* SafeAreaLayout_Extension.swift in Sources */,
 				BDD1BE26207446A3007F0A0C /* LoginView.swift in Sources */,

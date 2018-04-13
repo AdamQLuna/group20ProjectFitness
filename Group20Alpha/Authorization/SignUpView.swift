@@ -12,6 +12,7 @@ import Firebase
 
 class SignUpView: UIView {
     
+    //These are just placeholder actions for buttons; the code connected to these is in the controller
     var submitAction: (() -> Void)?
     var cancelAction: (() -> Void)?
     
@@ -20,6 +21,7 @@ class SignUpView: UIView {
         setup()
     }
     
+    //This guy is just here to not throw errors... I think
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -41,6 +43,7 @@ class SignUpView: UIView {
         mainStackView.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
     }
     
+    //All of these 'let' things are setting up the UI elements described in the stackView up top
     let backgroundImageView: UIImageView = {
         let iv = UIImageView()
         iv.image = UIImage(named: "Bitmap")
@@ -80,6 +83,7 @@ class SignUpView: UIView {
         return button
     }()
     
+    //These are handlers for the buttons. Don't know why we need them, but they're here
     @objc func handleSubmit() {
         submitAction?()
     }

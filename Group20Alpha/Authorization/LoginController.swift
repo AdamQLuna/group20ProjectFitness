@@ -47,8 +47,14 @@ class LoginController: UIViewController {
                 print("User: \(user?.uid) signed in")
                 self.defaults.set(true, forKey: "UserIsLoggedIn")
                 // show main controller
-                let mainController = UINavigationController(rootViewController: MainController())
-                self.present(mainController, animated: true, completion: nil)
+                
+                //Commenting out this line and adding a new one for testing only
+                //let mainController = UINavigationController(rootViewController: MainController())
+                //self.present(mainController, animated: true, completion: nil)
+                
+                //Just for testing, use the above lines for actual use
+                let addWorkoutController = AddWorkoutController()
+                self.present(addWorkoutController, animated: true, completion: nil)
             }
         }
     }

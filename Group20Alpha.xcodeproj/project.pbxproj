@@ -23,7 +23,7 @@
 		E491C5822061D56F0008318F /* Group20Alpha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E491C5802061D56F0008318F /* Group20Alpha.xcdatamodeld */; };
 		E491C5842061D56F0008318F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E491C5832061D56F0008318F /* Assets.xcassets */; };
 		E491C5872061D56F0008318F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E491C5852061D56F0008318F /* LaunchScreen.storyboard */; };
-		FACB0CCB2074514E000DAB3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FACB0CCA2074514E000DAB3F /* GoogleService-Info.plist */; };
+		FA44B0DB2086B92A000A3903 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA44B0DA2086B92A000A3903 /* GoogleService-Info.plist */; };
 		FACB0CEC20753698000DAB3F /* AddWorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB0CEB20753698000DAB3F /* AddWorkoutController.swift */; };
 		FACB0CEE207536B1000DAB3F /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB0CED207536B1000DAB3F /* AddWorkoutView.swift */; };
 /* End PBXBuildFile section */
@@ -49,7 +49,7 @@
 		E491C5832061D56F0008318F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E491C5862061D56F0008318F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E491C5882061D56F0008318F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FACB0CCA2074514E000DAB3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA44B0DA2086B92A000A3903 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FACB0CEB20753698000DAB3F /* AddWorkoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutController.swift; sourceTree = "<group>"; };
 		FACB0CED207536B1000DAB3F /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,7 +106,7 @@
 		E43BD34E2073CAB50023BF34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FACB0CCA2074514E000DAB3F /* GoogleService-Info.plist */,
+				FA44B0DA2086B92A000A3903 /* GoogleService-Info.plist */,
 				E491C5792061D56F0008318F /* AppDelegate.swift */,
 				E491C5832061D56F0008318F /* Assets.xcassets */,
 				E491C5852061D56F0008318F /* LaunchScreen.storyboard */,
@@ -238,8 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E491C5872061D56F0008318F /* LaunchScreen.storyboard in Resources */,
+				FA44B0DB2086B92A000A3903 /* GoogleService-Info.plist in Resources */,
 				E491C5842061D56F0008318F /* Assets.xcassets in Resources */,
-				FACB0CCB2074514E000DAB3F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

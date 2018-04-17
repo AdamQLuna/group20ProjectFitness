@@ -48,7 +48,7 @@ class LoginController: UIViewController {
                 self.defaults.set(true, forKey: "UserIsLoggedIn")
                 // show main controller
                 
-                //Commenting out this line and adding a new one for testing only
+                //ommenting out this line and adding a new one for testing only
                 //let mainController = UINavigationController(rootViewController: MainController())
                 //self.present(mainController, animated: true, completion: nil)
                 

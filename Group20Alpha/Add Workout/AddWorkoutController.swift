@@ -47,7 +47,7 @@ class AddWorkoutController: UIViewController {
         var weightString: String! = addWorkoutView.numWeight.text
         var weightInt: Int = 0
         
-        //If test is null...
+        //If text is null...
         if !(addWorkoutView.numWeight.text?.isEmpty)!{
            weightInt = Int(weightString)!
         }
@@ -65,7 +65,7 @@ class AddWorkoutController: UIViewController {
         var weightString: String! = addWorkoutView.numWeight.text
         var weightInt: Int = 0
         
-        //If test is null...
+        //If text is null...
         if !(addWorkoutView.numWeight.text?.isEmpty)!{
             weightInt = Int(weightString)!
         }
@@ -82,7 +82,7 @@ class AddWorkoutController: UIViewController {
         var weightString: String! = addWorkoutView.numWeight.text
         var weightInt: Int = 0
         
-        //If test is null...
+        //If text is null...
         if !(addWorkoutView.numWeight.text?.isEmpty)!{
             weightInt = Int(weightString)!
         }
@@ -100,7 +100,7 @@ class AddWorkoutController: UIViewController {
         var weightString: String! = addWorkoutView.numWeight.text
         var weightInt: Int = 0
         
-        //If test is null...
+        //If text is null...
         if !(addWorkoutView.numWeight.text?.isEmpty)!{
             weightInt = Int(weightString)!
         }
@@ -118,7 +118,7 @@ class AddWorkoutController: UIViewController {
         var weightString: String! = addWorkoutView.numWeight.text
         var weightInt: Int = 0
         
-        //If test is null...
+        //If text is null...
         if !(addWorkoutView.numWeight.text?.isEmpty)!{
             weightInt = Int(weightString)!
         }
@@ -145,5 +145,4 @@ class AddWorkoutController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }

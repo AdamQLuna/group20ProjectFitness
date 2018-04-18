@@ -24,6 +24,9 @@
 		E491C5842061D56F0008318F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E491C5832061D56F0008318F /* Assets.xcassets */; };
 		E491C5872061D56F0008318F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E491C5852061D56F0008318F /* LaunchScreen.storyboard */; };
 		FA44B0DB2086B92A000A3903 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA44B0DA2086B92A000A3903 /* GoogleService-Info.plist */; };
+		FA44B0E02086C076000A3903 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA44B0DF2086C076000A3903 /* HomeScreenView.swift */; };
+		FA44B0E22086C09D000A3903 /* HomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA44B0E12086C09D000A3903 /* HomeScreenController.swift */; };
+		FA44B0E42086C119000A3903 /* UILable_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA44B0E32086C119000A3903 /* UILable_Extension.swift */; };
 		FACB0CEC20753698000DAB3F /* AddWorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB0CEB20753698000DAB3F /* AddWorkoutController.swift */; };
 		FACB0CEE207536B1000DAB3F /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB0CED207536B1000DAB3F /* AddWorkoutView.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +53,9 @@
 		E491C5862061D56F0008318F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E491C5882061D56F0008318F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA44B0DA2086B92A000A3903 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA44B0DF2086C076000A3903 /* HomeScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeScreenView.swift; path = ../../../HomeScreenView.swift; sourceTree = "<group>"; };
+		FA44B0E12086C09D000A3903 /* HomeScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeScreenController.swift; path = ../../../../../../var/folders/3q/0kqlr48x527d42073x0lhwnm0000gn/T/com.apple.iChat/Messages/Transfers/HomeScreenController.swift; sourceTree = "<group>"; };
+		FA44B0E32086C119000A3903 /* UILable_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILable_Extension.swift; path = ../../../../../../var/folders/3q/0kqlr48x527d42073x0lhwnm0000gn/T/com.apple.iChat/Messages/Transfers/UILable_Extension.swift; sourceTree = "<group>"; };
 		FACB0CEB20753698000DAB3F /* AddWorkoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutController.swift; sourceTree = "<group>"; };
 		FACB0CED207536B1000DAB3F /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +100,7 @@
 		E43BD34D2073CA500023BF34 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FA44B0E32086C119000A3903 /* UILable_Extension.swift */,
 				BDD1BE19207445AC007F0A0C /* SafeAreaLayout_Extension.swift */,
 				BDD1BE1B207445DD007F0A0C /* UITextField_Extension.swift */,
 				BDD1BE1D207445F4007F0A0C /* UIStackView_Extension.swift */,
@@ -156,6 +163,7 @@
 		E491C5782061D56F0008318F /* Group20Alpha */ = {
 			isa = PBXGroup;
 			children = (
+				FA44B0DC2086BF78000A3903 /* Home Screen */,
 				FACB0CEA20753634000DAB3F /* Add Workout */,
 				E43BD34E2073CAB50023BF34 /* Supporting Files */,
 				E43BD34D2073CA500023BF34 /* Extensions */,
@@ -164,6 +172,15 @@
 				E43BD3512073CB630023BF34 /* Core Data */,
 			);
 			path = Group20Alpha;
+			sourceTree = "<group>";
+		};
+		FA44B0DC2086BF78000A3903 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA44B0E12086C09D000A3903 /* HomeScreenController.swift */,
+				FA44B0DF2086C076000A3903 /* HomeScreenView.swift */,
+			);
+			path = "Home Screen";
 			sourceTree = "<group>";
 		};
 		FACB0CEA20753634000DAB3F /* Add Workout */ = {
@@ -321,8 +338,11 @@
 				FACB0CEE207536B1000DAB3F /* AddWorkoutView.swift in Sources */,
 				BDD1BE2C20744708007F0A0C /* SignUpView.swift in Sources */,
 				BDD1BE2420744681007F0A0C /* LoginController.swift in Sources */,
+				FA44B0E22086C09D000A3903 /* HomeScreenController.swift in Sources */,
 				BDD1BE1C207445DD007F0A0C /* UITextField_Extension.swift in Sources */,
+				FA44B0E42086C119000A3903 /* UILable_Extension.swift in Sources */,
 				BDD1BE2020744616007F0A0C /* UIButton_Extension.swift in Sources */,
+				FA44B0E02086C076000A3903 /* HomeScreenView.swift in Sources */,
 				FACB0CEC20753698000DAB3F /* AddWorkoutController.swift in Sources */,
 				BDD1BE1E207445F4007F0A0C /* UIStackView_Extension.swift in Sources */,
 				BDD1BE1A207445AC007F0A0C /* SafeAreaLayout_Extension.swift in Sources */,

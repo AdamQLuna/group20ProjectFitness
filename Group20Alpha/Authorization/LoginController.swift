@@ -53,8 +53,11 @@ class LoginController: UIViewController {
                 //self.present(mainController, animated: true, completion: nil)
                 
                 //Just for testing, use the above lines for actual use
-                let addWorkoutController = AddWorkoutController()
-                self.present(addWorkoutController, animated: true, completion: nil)
+                //let addWorkoutController = AddWorkoutController()
+                //self.present(addWorkoutController, animated: true, completion: nil)
+                
+                let homeScreenController = HomeScreenController()
+                self.present(homeScreenController, animated: true, completion: nil)
             }
         }
     }

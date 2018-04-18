@@ -27,4 +27,8 @@ public extension UIColor {
         return UIColor(r: 255, g: 151, b: 164)
     }()
     
+    static var blackBorderColor: UIColor = {
+        return UIColor(r: 0, g: 0, b: 0)
+    }()
+    
 }
